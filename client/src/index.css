@@ -1,0 +1,195 @@
+html {
+  scroll-behavior: smooth;
+ }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --topbar-height: 60px;
+  --shadow-button: 0 0 8px 0 rgba(17, 22, 26, 0.16),
+    0 4px 8px 0 rgba(17, 22, 26, 0.08), 0 8px 16px 0 rgba(17, 22, 26, 0.08);
+  --shadow-card: 0 0 4px 0 rgba(17, 22, 26, 0.16),
+    0 2px 4px 0 rgba(17, 22, 26, 0.08), 0 4px 8px 0 rgba(17, 22, 26, 0.08);
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply h-full;
+  }
+}
+
+option {
+  background: rgba(37, 35, 36, 1);
+}
+
+.max-height-chat {
+  height: 60%;
+  overflow-y: scroll;
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 100px;
+}
+
+.add-margin {
+  margin: 5rem 0;
+}
+
+.navbar-chat {
+  color: white;
+}
+
+.Chat_fav {
+  border-radius: 15px;
+  margin-top: 4px;
+}
+
+.goog_button {
+  background-color: '#40444B' !important,
+}
+
+.chat-icon {
+  color: #00474a;
+  margin-right: 10px;
+}
+
+.chat-forex {
+  overflow-y: scroll;
+  height: 500px;
+  flex-direction: column-reverse;
+}
+
+::marker {
+  visibility: hidden;
+  color: black;
+}
+
+.sumbit-chat {
+  padding: 0;
+}
+
+.outline-none {
+  outline: none !important;
+}
+
+.outline-none:focus {
+  outline: none !important;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+.form-control:focus {
+  border-color: inherit !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.right-corner {
+  margin-left: 93%;
+  margin-top: 1.5rem;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .sumbit-adjustment {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 980px) and (min-width: 665px) {
+  .right-corner {
+    margin-left: 85%;
+    margin-top: 1.5rem;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 665px) and (min-width: 561px) {
+  .right-corner {
+    margin-left: 80%;
+    margin-top: 1rem;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 561px) and (min-width: 390px) {
+  .right-corner {
+    margin-left: 70%;
+    margin-top: 1rem;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .right-corner {
+    margin-left: 65%;
+    margin-top: 1rem;
+    margin-right: 0;
+  }
+
+  .transition-all {
+    margin-right: 0;
+  }
+}
+
+.name-chat {
+  margin: 0;
+}
+
+.time-chat {
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.sumbit-adjustment:hover {
+  background-color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.coversion-rates {
+  background-color: #f2f2f2;
+  color: white;
+  text-align: center;
+}
+
+.header-rate {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.stylen {
+  background-color: #f2f2f2;
+}
+
+.input_bar {
+  width: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sumbit_button {
+  height: 10%;
+  width: 15%;  
+}
