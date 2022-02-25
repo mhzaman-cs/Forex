@@ -4,6 +4,8 @@ import Chat from './components/Chat';
 
 import './assets/css/main.css';
 
+import './assets/js/main.js';
+
 import CurrencyInput from "./components/CurrencyInput";
 
 import {useState, useEffect} from "react";
@@ -15,6 +17,8 @@ import Reviews from './components/Reviews';
 import Cards from './components/Cards';
 
 import Banner from './components/Banner';
+
+import Login from './Login';
 
 import axios from "axios";
 
@@ -79,6 +83,7 @@ const Tab = styled.button`
 
 
 function TabGroup() {
+
   const [active, setActive] = useState(types[0]);
 
   if (active == "Change Password"){
@@ -90,9 +95,10 @@ function TabGroup() {
           <input type="submit" defaultValue="Submit Form" />
         </form>
   </div></>
+
   } else if (active == "Register") {
   var result = <><div>
-        <h1>Registration</h1>
+        <h1>Register by Entering your Preferred Username and Password</h1>
         <form id="reg-form">
           <input type="text" className="input_bar" autoComplete="off" id="username" placeholder="Username" />
           <input type="password" className="input_bar" autoComplete="off" id="password" placeholder="Password" />
@@ -100,30 +106,26 @@ function TabGroup() {
         </form>
       </div>
   </>
-} else {
-  var result = <><div><h1>Login</h1>
-              <form id="login">
-                <input type="text" className="input_bar" autoComplete="off" id="username" placeholder="Username" />
-                <input type="password" className="input_bar" autoComplete="off" id="password" placeholder="Password" />
-                <input type="submit" className="sumbit_button" defaultValue="Submit Form" />
-              </form>
-  </div></>
-}
 
-  return (
-    <>
-      <div>
-        {types.map((type) => (
-          <Tab key={type} active={active === type} onClick={() => setActive(type)} >
-            {type}
-          </Tab>
-        ))}
-      </div>
-      <p />
-      <p> {result} </p>
-    </>
-  );
-}
+  } else {
+    var result = <Login></Login>
+  }
+
+
+    return (
+      <>
+        <div>
+          {types.map((type) => (
+            <Tab key={type} active={active === type} onClick={() => setActive(type)} >
+              {type}
+            </Tab>
+          ))}
+        </div>
+        <p />
+        <p> {result} </p>
+      </>
+    );
+  }
 
 const types = ["Login", "Register"]; //, "Change Password"
 

@@ -52,6 +52,7 @@ function Banner () {
       </div>
     </article> */}
     </section>
+
   );
 }
 

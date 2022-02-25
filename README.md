@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- Download npm and node.js
+- Download npm and node.js, and yarn
 - Once npm is downloaded, download all the project dependencies
 
 ### Installing
@@ -19,19 +19,25 @@ To download npm run the following command:
 > npm install -g npm
 ```
 
-And to download all the dependencies run the following command:
+To download yarn run the following command:
 
 ```
-> npm install
+> npm install --global yarn
+```
+
+And to download all the dependencies run the following command, in both the root and client directory:
+
+```
+> yarn install
 ```
 
 ## Deployment
 
 1. Download the dependencies mentioned above
-2. Run the following command to deploy the web app on [http://localhost:3000](http://localhost:3000):
+2. Run the following command in the root directory to deploy the web app on [http://localhost:4000](http://localhost:4000):
 
 ```
-> npm start
+> yarn start
 ```
 
 ## Demo
@@ -47,6 +53,12 @@ Note: these dependencies can also be found in the package.json file, along with 
 * [react-firebase-hooks](https://www.npmjs.com/package/react-firebase-hooks) - Version 4.0.1
 * [react-helmet](https://www.npmjs.com/package/react-helmet) - Version 6.1.0
 * [web-vitals](https://www.npmjs.com/package/web-vitals) - Version 2.1.2
+* [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) - Version 8.5.1
+* [morgan](https://www.npmjs.com/package/morgan) - Version 1.9.1
+* [npm-run-all](https://www.npmjs.com/package/npm-run-all) - Version 4.1.5
+* [passport](https://www.npmjs.com/package/passport) - Version 0.4.1
+* [passport-jwt](https://www.npmjs.com/package/passport-jwt) - Version 4.0.0
+* [passport-local](https://www.npmjs.com/package/passport-local) - Version 1.0.0
 
 ## Authors
 

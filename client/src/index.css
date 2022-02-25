@@ -64,7 +64,7 @@ option {
 }
 
 .goog_button {
-  background-color: '#40444B' !important,
+  background-color: #40444B !important,
 }
 
 .chat-icon {
@@ -190,6 +190,11 @@ option {
 }
 
 .sumbit_button {
-  height: 10%;
-  width: 15%;  
+  height: 5% !important;
+  width: 15%;
+  background-color: #f2f2f2 !important;
+}
+
+.sumbit_button:hover {
+  background-color: white !important;
 }
