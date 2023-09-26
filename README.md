@@ -41,7 +41,7 @@ And to download all the dependencies run the following command, in both the root
 ```
 
 ## Demo
-[<img src="Demo.gif" width="100%"/>](https://github.com/MuhammadZ985/Forex)
+[<img src="Demo.gif" width="100%"/>](https://github.com/mhzaman-cs/Forex)
 
 
 ## Built With
@@ -62,7 +62,7 @@ Note: these dependencies can also be found in the package.json file, along with 
 
 ## Authors
 
-* **Muhammad Zaman** - *Sole Contributor* - [MuhammadZ985](https://github.com/MuhammadZ985/)
+* **Miles Zaman** - *Sole Contributor* - [mhzaman-cs](https://github.com/mhzaman-cs/)
 
 ## License
 

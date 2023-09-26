@@ -11,15 +11,47 @@ function Instructions () {
           <p className="special">How it works!</p>
             <h2>Instructions</h2>
         </header>
-          <p><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt vitae semper quis lectus nulla at. Varius sit amet mattis vulputate enim nulla. Amet consectetur adipiscing elit duis. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Vehicula ipsum a arcu cursus vitae. Augue eget arcu dictum varius duis at consectetur. Ac turpis egestas sed tempus urna et. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Lorem ipsum dolor sit amet consectetur. Faucibus pulvinar elementum integer enim neque volutpat ac.
-          <br /><br />
-          Dictum sit amet justo donec enim. Tempor nec feugiat nisl pretium fusce id. Enim eu turpis egestas pretium aenean pharetra magna ac. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Vel risus commodo viverra maecenas accumsan. Molestie a iaculis at erat pellentesque. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Non diam phasellus vestibulum lorem sed risus. Mattis rhoncus urna neque viverra justo nec. Maecenas volutpat blandit aliquam etiam. Etiam sit amet nisl purus in mollis. Nascetur ridiculus mus mauris vitae ultricies leo integer. Pellentesque adipiscing commodo elit at imperdiet dui. Non arcu risus quis varius quam quisque id diam vel. Laoreet non curabitur gravida arcu ac tortor dignissim. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed.
-          <br /><br />
-          Ipsum suspendisse ultrices gravida dictum. Sollicitudin ac orci phasellus egestas tellus rutrum. Sagittis purus sit amet volutpat consequat. Odio morbi quis commodo odio aenean sed. Sit amet commodo nulla facilisi. Pellentesque elit eget gravida cum sociis natoque penatibus et magnis. Felis eget nunc lobortis mattis aliquam. Fames ac turpis egestas maecenas pharetra convallis. Vel pharetra vel turpis nunc eget lorem dolor sed viverra. Vel quam elementum pulvinar etiam non quam lacus. Sit amet justo donec enim diam vulputate. Aenean et tortor at risus viverra adipiscing at. Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Nisi vitae suscipit tellus mauris a diam maecenas sed. Lacus sed turpis tincidunt id aliquet risus feugiat. Non nisi est sit amet facilisis magna etiam tempor orci.
-          <br /><br />
-          Suspendisse in est ante in nibh mauris. Gravida quis blandit turpis cursus in hac habitasse platea dictumst. In cursus turpis massa tincidunt dui ut. Ut porttitor leo a diam sollicitudin. Nisl vel pretium lectus quam id leo. Ac turpis egestas integer eget aliquet nibh praesent. Quisque non tellus orci ac auctor augue mauris. Nibh venenatis cras sed felis eget. Eu augue ut lectus arcu. Sollicitudin tempor id eu nisl. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Vulputate eu scelerisque felis imperdiet proin fermentum leo. Consequat mauris nunc congue nisi vitae suscipit tellus. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper.
-          <br /><br />
-          Vel quam elementum pulvinar etiam non quam. Tincidunt eget nullam non nisi est. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Sed felis eget velit aliquet sagittis id consectetur purus. Ac ut consequat semper viverra nam libero justo laoreet. Commodo ullamcorper a lacus vestibulum sed arcu. Donec adipiscing tristique risus nec feugiat in. Sem et tortor consequat id porta nibh. Suspendisse ultrices gravida dictum fusce ut. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Diam phasellus vestibulum lorem sed risus. Molestie nunc non blandit massa enim nec dui nunc mattis. A diam sollicitudin tempor id eu nisl nunc. Ornare massa eget egestas purus. Ultrices sagittis orci a scelerisque. Diam sollicitudin tempor id eu nisl nunc mi. Est ante in nibh mauris cursus mattis molestie a iaculis. In iaculis nunc sed augue lacus.</p>
+        <p>
+          <h2>Instructions for Using 4X Broker</h2>
+
+          <h3>1. Sign Up or Log In:</h3>
+          If you're new to 4X Broker, start by creating an account. Provide your basic information, including a valid email address and password.<br />
+
+          If you're a returning user, simply log in with your registered credentials.<br />
+
+          <h3>2. Create a Currency Exchange Listing:</h3>
+          Once logged in, you can create a listing specifying the currencies you have and the ones you desire.<br />
+
+          Include essential details such as the currency amount, your location, and any preferences you may have.<br />
+
+          <h3>3. Browse Listings and Initiate a Chat:</h3>
+          Explore the listings posted by other users on the platform. You can filter listings based on your preferences.<br />
+
+          When you find a listing that matches your currency exchange needs, click on it to initiate a chat with the user.<br />
+
+          <h3>4. Negotiate and Finalize Exchange Rates:</h3>
+          Use the chat feature to communicate with the other party. Discuss the exchange rate you both agree on based on the current mid-market rate.<br />
+
+          Feel free to negotiate and ask any questions to ensure a smooth exchange process.<br />
+
+          Once you're satisfied with the terms, finalize the exchange rate in the chat.<br />
+
+          <h3>5. Exchange Banking Details:</h3>
+          Share your banking details securely within the chat, or use other trusted platforms or methods to transfer funds. Always exercise caution when sharing sensitive information.<br />
+
+          <h3>6. Complete the Currency Exchange:</h3>
+          Proceed with the currency exchange using your chosen banking or payment method. Ensure both parties are comfortable with the process before initiating the transaction.<br />
+
+          <h3>7. Rate and Review:</h3>
+          After the exchange is completed successfully, you have the option to rate and review the user you traded with. This helps build trust within the 4X Broker community.<br />
+
+          <h2>Why Choose 4X Broker:</h2>
+          - 4X Broker is the ideal platform for those looking to avoid high Forex fees.<br />
+          - It's particularly beneficial for students and others who frequently exchange currencies, allowing you to save money on conversion fees.<br />
+          - Unlike traditional Forex platforms, 4X Broker offers a fee-free and flexible exchange experience.<br />
+
+          Join the 4X Broker community today and start saving on currency conversion fees while connecting with others looking to exchange currency directly. Happy trading!<br />
+      </p>
       </div>
     </section>
   );
